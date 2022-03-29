@@ -1,20 +1,42 @@
-#form1{border: 1px solid red;
+#form1{
+       border: 1px solid red;
        height:400px;
        width: 40%;
-       background-color: aquamarine;}
-    .text{color: red;
-         font-size: 35px;}
-    .one{font-size: 30px;
+       background-color: aquamarine;
+       margin-left: 32%;
+       margin-top:10%}
+    .text{
+         color: blue;
+         font-size: 35px;
+         margin-left:24%;
+         width:59%;
+         box-shadow: 24px 20px 16px rgb(24, 24, 24);}
+    .text2{
+            margin-left:30%;
+            margin-top: 10%;
+            color:blue                                      
+        }
+    .one{
+        font-size: 30px;
         margin-top: 78px;
         margin-left: 31%;
         border-radius: 20px;
-        color: blueviolet}
-    .one pre{margin: 10px;}
-    .two{    margin-left: 16px;
+        color: burlywood
+       }
+       .one:hover{
+           background-color: green
+       }
+    .one pre{
+             margin: 10px;
+            }
+    .two{margin-left: 16px;
         margin-top: 78px;
         position: absolute;
         font-size: 30px;
         border-radius: 20px;
-        color: blueviolet;
-    }}
+        color: burlywood;
+    }
+    .two:hover{
+        background-color: red
+    }
         
