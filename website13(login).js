@@ -41,7 +41,7 @@ function showpwd(){
 }
 function go(){
     let block=document.getElementById('myname');
-    if(block.style.color =="green" && pwdout.style.color=="green" || pwdout ){
+    if(block.style.color =="green" && pwdout.style.color=="green" || pwdout.style.color=="orange" || pwdout.style.color=="red" ){
         window.location.href='website13.html';
     }
     else{
