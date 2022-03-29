@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="website13(signup).css">
+        <script src="website13(signup).js"></script>
+        <script src="https://kit.fontawesome.com/ace8f7e650.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="form2">
+        <div class="text">Create Account</div>
+        <div class="signup">
+            <span id="f"><label class="fn">First Name:</label>
+            <input type="text"id="fname"  name="first_name"/></span>
+
+            <span class="l"><label class="ln">Last Name:</label>
+            <input type="text"id="lname" name="last_name"  /></span> 
+            <p id="fout"></p>
+            <p id="lout"></p>
+            
+            <div class="gen">Gender:
+            <label>Male</label>
+            <input type="radio" name="gender">
+            <label>Female</label>
+            <input type="radio" name="gender"/>
+            </div>
+
+            <div id="mobile"><label>Mobile number</label>
+            <input type="text" id="mob" /></div>
+            <p id="mout"></p>
+
+            <div id="email"><label>Email</label>
+            <input type="text" oninput="email()" id="e" /></div>
+            </div>
+            <p id="eout"></p>
+
+            <div id="password"><label>Password</label>
+            <input type="password"  id="pwd"/>
+            <span onclick="showpwd()">
+                <i class="fas fa-eye"></i> 
+            </span>
+            </div>
+            <p id="pout"></p>
+
+
+            <div id="confirmpassword"><label>Confirm Password</label>
+            <input type="text" onchange="validatecpwd()" id="cpwd" /></div>
+            <p id="cpout"></p>
+            <button type="submit" id="btn" onclick="validatefname();validatelname();validatenumber();gofurther()">Create Account</button>
+        </div>
+        </div>
+    </body>
+</html> 
